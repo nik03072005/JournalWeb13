@@ -21,7 +21,7 @@ const Footer = () => {
               <div>
                 {/* Letterhead Style Logo - Matching Navbar */}
                 <div className="inline-block mb-4 lg:mb-6 group transition-all duration-500">
-                  <div className="flex items-center gap-3 lg:gap-4 bg-white/95 backdrop-blur-sm rounded-lg px-3 lg:px-4 py-2 lg:py-3 shadow-lg border border-white/20 group-hover:shadow-xl group-hover:bg-white transition-all duration-500">
+                  <div className="flex items-center gap-3 lg:gap-4 bg-cyan/95 backdrop-blur-sm rounded-lg px-3 lg:px-4 py-2 lg:py-3 shadow-lg border border-white/20 group-hover:shadow-xl group-hover:bg-cyan transition-all duration-500">
                     {/* Logo */}
                     <div className="relative">
                       <img 
@@ -88,7 +88,7 @@ const Footer = () => {
                   </div>
                   <div className="text-center sm:text-left">
                     <p className="text-gray-300 text-sm lg:text-base leading-relaxed">
-                      Mangaldai College, West Garo Hills, Meghalaya
+                      Mangaldai College, PO– Mangaldai, Vill-Upahupara, Dist- Darrang(Assam), Pin– 784125
                     </p>
                   </div>
                 </li>
@@ -98,7 +98,7 @@ const Footer = () => {
                     <Phone className="w-4 h-4 lg:w-5 lg:h-5 text-green-400" />
                   </div>
                   <a href="tel:+91 7629801713" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base text-center sm:text-left">
-                    +91 7629801713
+                    03713-222624
                   </a>
                 </li>
                 
@@ -106,8 +106,9 @@ const Footer = () => {
                   <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 bg-blue-500/20 rounded-lg flex items-center justify-center mb-2 sm:mb-0 sm:mr-3 lg:mr-4 group-hover:bg-blue-500/30 transition-colors duration-300">
                     <Mail className="w-4 h-4 lg:w-5 lg:h-5 text-blue-400" />
                   </div>
-                  <a href="mailto:duramacollege@gmail.com" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base break-all text-center sm:text-left">
-                    duramacollege@gmail.com
+                  <a href="mailto:principalmangaldaicollege@gmail.com" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base break-all text-center sm:text-left">
+                    principalmangaldaicollege@gmail.com
+
                   </a>
                 </li>
                 
@@ -115,8 +116,8 @@ const Footer = () => {
                   <div className="flex-shrink-0 w-8 h-8 lg:w-10 lg:h-10 bg-purple-500/20 rounded-lg flex items-center justify-center mb-2 sm:mb-0 sm:mr-3 lg:mr-4 group-hover:bg-purple-500/30 transition-colors duration-300">
                     <Globe className="w-4 h-4 lg:w-5 lg:h-5 text-purple-400" />
                   </div>
-                  <a href="https://www.duramacollege.edu.in" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base text-center sm:text-left">
-                    https://www.duramacollege.edu.in
+                  <a href="https://www.mangaldaicollege.org/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base text-center sm:text-left">
+                    https://www.mangaldaicollege.org/
                   </a>
                 </li>
               </ul>
