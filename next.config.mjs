@@ -10,7 +10,7 @@ const nextConfig = {
       },
        {
         protocol: 'https',
-        hostname: 'duramacollege.s3.ap-south-1.amazonaws.com',
+        hostname: 'mangaldaicollege.s3.ap-south-1.amazonaws.com',
         port: '',
         pathname: '/**',
       },
