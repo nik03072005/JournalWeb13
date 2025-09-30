@@ -138,7 +138,7 @@ export default function Home() {
         {/* Hero Section - Premium Mobile Responsive */}
         <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 sm:px-8 md:px-12 lg:px-16 pt-20 sm:pt-24 md:pt-28 pb-16 sm:pb-20 md:pb-24 min-h-screen">
           {/* University Badge - Enhanced with Animation */}
-          <div className="animate-fade-in-up rounded-full px-5 sm:px-7 py-3 sm:py-4 border border-white/20 bg-white/5 backdrop-blur-sm mb-4 sm:mb-6 shadow-2xl hover:border-white/30 transition-all duration-300" style={{animationDelay: '0.2s'}}>
+          <div className="animate-fade-in-up rounded-full px-5 sm:px-7 py-2 sm:py-3 border border-white/20 bg-white/5 backdrop-blur-sm mb-2 sm:mb-3 shadow-2xl hover:border-white/30 transition-all duration-300" style={{animationDelay: '0.2s'}}>
             <span className="text-sm sm:text-base font-semibold text-white flex items-center gap-3">
               <span className="text-lg animate-pulse">📚</span>
               <span className="tracking-wide">Digital Library - Mangaldai College</span>
@@ -146,34 +146,34 @@ export default function Home() {
           </div>
 
           {/* Main Heading - Enhanced Typography with Better Hierarchy */}
-          <div className="animate-fade-in-up text-center mb-4 sm:mb-6" style={{animationDelay: '0.4s'}}>
-            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black leading-tight mb-3 tracking-wider px-2 drop-shadow-2xl max-w-7xl mx-auto whitespace-nowrap overflow-hidden">
+          <div className="animate-fade-in-up text-center mb-2 sm:mb-3" style={{animationDelay: '0.4s'}}>
+            <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight mb-2 tracking-wide px-2 drop-shadow-2xl max-w-4xl mx-auto whitespace-nowrap overflow-hidden">
               <span className="text-white">UNLOCK </span>
               <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">KNOWLEDGE</span>
             </h1>
             
             {/* Decorative line */}
-            <div className="w-24 sm:w-32 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto rounded-full mb-3"></div>
+            <div className="w-16 sm:w-24 h-0.5 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto rounded-full mb-2"></div>
           </div>
 
           {/* Subtitle - Enhanced with Better Typography */}
-          <p className="animate-fade-in-up text-white/85 text-xl sm:text-2xl md:text-3xl max-w-2xl sm:max-w-3xl md:max-w-4xl mb-8 sm:mb-10 leading-relaxed font-light px-4 drop-shadow-lg text-center" style={{animationDelay: '0.6s'}}>
+          <p className="animate-fade-in-up text-white/85 text-lg sm:text-xl md:text-2xl max-w-xl sm:max-w-2xl md:max-w-3xl mb-4 sm:mb-6 leading-relaxed font-light px-4 drop-shadow-lg text-center" style={{animationDelay: '0.6s'}}>
             Access millions of academic resources, research papers, and
             <br className="hidden sm:block" />
             <span className="text-cyan-300">from anywhere in the world</span>
           </p>
 
           {/* Enhanced Search Section */}
-          <div className="animate-slide-in-from-bottom bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 border border-white/20 shadow-2xl max-w-xl sm:max-w-2xl md:max-w-5xl w-full mb-8 sm:mb-12 mx-auto relative overflow-hidden" style={{animationDelay: '0.8s'}}>
+          <div className="animate-slide-in-from-bottom bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-6 border border-white/20 shadow-2xl max-w-lg sm:max-w-xl md:max-w-3xl w-full mb-4 sm:mb-6 mx-auto relative overflow-hidden" style={{animationDelay: '0.8s'}}>
             {/* Decorative gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/5 via-blue-500/5 to-indigo-500/5 pointer-events-none"></div>
             
             {/* Modern Search Bar */}
-            <div className="flex w-full bg-white/10 backdrop-blur-lg rounded-2xl border border-white/30 overflow-hidden mb-10 shadow-2xl hover:shadow-cyan-500/10 transition-all duration-500 relative group">
+            <div className="flex w-full bg-white/10 backdrop-blur-lg rounded-xl border border-white/30 overflow-hidden mb-4 shadow-2xl hover:shadow-cyan-500/10 transition-all duration-500 relative group">
               {/* Search icon with animated background */}
-              <div className="flex items-center pl-6 sm:pl-8 py-2 relative">
+              <div className="flex items-center pl-4 sm:pl-6 py-1 relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/20 to-blue-400/20 opacity-0 group-focus-within:opacity-100 transition-opacity duration-300"></div>
-                <Search className="w-7 h-7 sm:w-8 sm:h-8 text-white relative z-10" />
+                <Search className="w-5 h-5 sm:w-6 sm:h-6 text-white relative z-10" />
               </div>
               
               {/* Enhanced input */}
@@ -187,14 +187,14 @@ export default function Home() {
                     handleSearch();
                   }
                 }}
-                className="px-4 sm:px-5 py-2 sm:py-3 w-full bg-transparent text-white placeholder-white/70 focus:outline-none text-sm sm:text-base lg:text-lg font-medium focus:placeholder-white/50 transition-all duration-300"
+                className="px-3 sm:px-4 py-2 w-full bg-transparent text-white placeholder-white/70 focus:outline-none text-sm sm:text-base font-medium focus:placeholder-white/50 transition-all duration-300"
                 aria-label="Search for academic resources"
               />
               
               {/* Enhanced search button */}
               <button
                 onClick={handleSearch}
-                className={`relative overflow-hidden bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 hover:from-cyan-400 hover:via-blue-400 hover:to-indigo-400 transition-all duration-500 font-bold px-4 sm:px-6 py-2 sm:py-3 text-white text-sm sm:text-base shadow-xl group ${
+                className={`relative overflow-hidden bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 hover:from-cyan-400 hover:via-blue-400 hover:to-indigo-400 transition-all duration-500 font-bold px-3 sm:px-5 py-2 text-white text-sm shadow-xl group ${
                   !searchTerm.trim() ? 'opacity-60 cursor-not-allowed' : 'hover:shadow-2xl hover:shadow-cyan-500/25 hover:scale-105'
                 }`}
                 disabled={!searchTerm.trim()}
@@ -207,10 +207,10 @@ export default function Home() {
             </div>
 
             {/* Advanced Search Button */}
-            <div className="flex justify-center px-4 mt-4">
+            <div className="flex justify-center px-4 mt-2">
               <Link
                 href="/advanceSearch"
-                className="group relative px-6 sm:px-8 py-3 sm:py-4 rounded-xl border-2 border-cyan-400/40 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-sm text-white font-bold hover:from-cyan-400/30 hover:to-blue-400/30 hover:border-cyan-300/60 hover:scale-105 transition-all duration-300 flex items-center gap-2 text-sm sm:text-base shadow-lg hover:shadow-xl hover:shadow-cyan-500/25 overflow-hidden"
+                className="group relative px-4 sm:px-6 py-2 sm:py-3 rounded-lg border-2 border-cyan-400/40 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-sm text-white font-bold hover:from-cyan-400/30 hover:to-blue-400/30 hover:border-cyan-300/60 hover:scale-105 transition-all duration-300 flex items-center gap-2 text-sm shadow-lg hover:shadow-xl hover:shadow-cyan-500/25 overflow-hidden"
                 aria-label="Advanced Search"
               >
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -224,69 +224,69 @@ export default function Home() {
           </div> 
 
           {/* Premium Stats Section - Redesigned to match image */}
-          <div className="animate-fade-in grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 w-full max-w-6xl px-4 sm:px-6 mt-8" style={{animationDelay: '1s'}}>
+          <div className="animate-fade-in grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 w-full max-w-5xl px-4 sm:px-6 mt-4" style={{animationDelay: '1s'}}>
             {/* Research Articles - Blue Theme */}
-            <div className="group relative bg-gradient-to-br from-blue-600/20 to-blue-800/20 backdrop-blur-xl p-6 sm:p-8 rounded-2xl text-center border border-blue-400/30 hover:border-blue-300/50 hover:from-blue-500/25 hover:to-blue-700/25 transition-all duration-500 shadow-2xl hover:shadow-blue-500/25 hover:scale-105 overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-blue-600/20 to-blue-800/20 backdrop-blur-xl p-4 sm:p-6 rounded-xl text-center border border-blue-400/30 hover:border-blue-300/50 hover:from-blue-500/25 hover:to-blue-700/25 transition-all duration-500 shadow-2xl hover:shadow-blue-500/25 hover:scale-105 overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-blue-700/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
-              <div className="relative z-10 w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-blue-500/40 to-blue-600/40 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-all duration-500 shadow-lg">
-                <svg className="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <div className="relative z-10 w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-500/40 to-blue-600/40 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
                 </svg>
               </div>
               
-              <h3 className="relative z-10 text-2xl sm:text-3xl md:text-4xl font-black text-white mb-2 tracking-tight">
+              <h3 className="relative z-10 text-xl sm:text-2xl md:text-3xl font-black text-white mb-1 tracking-tight">
                 250K+
               </h3>
-              <p className="relative z-10 text-blue-100/90 text-sm sm:text-base font-semibold">Research Articles</p>
+              <p className="relative z-10 text-blue-100/90 text-xs sm:text-sm font-semibold">Research Articles</p>
             </div>
             
             {/* Digital Books - Purple Theme */}
-            <div className="group relative bg-gradient-to-br from-purple-600/20 to-purple-800/20 backdrop-blur-xl p-6 sm:p-8 rounded-2xl text-center border border-purple-400/30 hover:border-purple-300/50 hover:from-purple-500/25 hover:to-purple-700/25 transition-all duration-500 shadow-2xl hover:shadow-purple-500/25 hover:scale-105 overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-purple-600/20 to-purple-800/20 backdrop-blur-xl p-4 sm:p-6 rounded-xl text-center border border-purple-400/30 hover:border-purple-300/50 hover:from-purple-500/25 hover:to-purple-700/25 transition-all duration-500 shadow-2xl hover:shadow-purple-500/25 hover:scale-105 overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-purple-700/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
-              <div className="relative z-10 w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-purple-500/40 to-purple-600/40 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-all duration-500 shadow-lg">
-                <svg className="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="relative z-10 w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-purple-500/40 to-purple-600/40 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C20.168 18.477 18.582 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
               
-              <h3 className="relative z-10 text-2xl sm:text-3xl md:text-4xl font-black text-white mb-2 tracking-tight">
+              <h3 className="relative z-10 text-xl sm:text-2xl md:text-3xl font-black text-white mb-1 tracking-tight">
                 500K+
               </h3>
-              <p className="relative z-10 text-purple-100/90 text-sm sm:text-base font-semibold">Digital Books</p>
+              <p className="relative z-10 text-purple-100/90 text-xs sm:text-sm font-semibold">Digital Books</p>
             </div>
             
             {/* Academic Journals - Green Theme */}
-            <div className="group relative bg-gradient-to-br from-green-600/20 to-green-800/20 backdrop-blur-xl p-6 sm:p-8 rounded-2xl text-center border border-green-400/30 hover:border-green-300/50 hover:from-green-500/25 hover:to-green-700/25 transition-all duration-500 shadow-2xl hover:shadow-green-500/25 hover:scale-105 overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-green-600/20 to-green-800/20 backdrop-blur-xl p-4 sm:p-6 rounded-xl text-center border border-green-400/30 hover:border-green-300/50 hover:from-green-500/25 hover:to-green-700/25 transition-all duration-500 shadow-2xl hover:shadow-green-500/25 hover:scale-105 overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-green-700/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
-              <div className="relative z-10 w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-green-500/40 to-green-600/40 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-all duration-500 shadow-lg">
-                <svg className="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="relative z-10 w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-green-500/40 to-green-600/40 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2 2 0 00-2-2H15" />
                 </svg>
               </div>
               
-              <h3 className="relative z-10 text-2xl sm:text-3xl md:text-4xl font-black text-white mb-2 tracking-tight">
+              <h3 className="relative z-10 text-xl sm:text-2xl md:text-3xl font-black text-white mb-1 tracking-tight">
                 15K+
               </h3>
-              <p className="relative z-10 text-green-100/90 text-sm sm:text-base font-semibold">Academic Journals</p>
+              <p className="relative z-10 text-green-100/90 text-xs sm:text-sm font-semibold">Academic Journals</p>
             </div>
             
             {/* Global Access - Orange Theme */}
-            <div className="group relative bg-gradient-to-br from-orange-600/20 to-orange-800/20 backdrop-blur-xl p-6 sm:p-8 rounded-2xl text-center border border-orange-400/30 hover:border-orange-300/50 hover:from-orange-500/25 hover:to-orange-700/25 transition-all duration-500 shadow-2xl hover:shadow-orange-500/25 hover:scale-105 overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-orange-600/20 to-orange-800/20 backdrop-blur-xl p-4 sm:p-6 rounded-xl text-center border border-orange-400/30 hover:border-orange-300/50 hover:from-orange-500/25 hover:to-orange-700/25 transition-all duration-500 shadow-2xl hover:shadow-orange-500/25 hover:scale-105 overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-orange-700/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
-              <div className="relative z-10 w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-orange-500/40 to-orange-600/40 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-all duration-500 shadow-lg">
-                <svg className="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="relative z-10 w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-orange-500/40 to-orange-600/40 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               
-              <h3 className="relative z-10 text-2xl sm:text-3xl md:text-4xl font-black text-white mb-2 tracking-tight">
+              <h3 className="relative z-10 text-xl sm:text-2xl md:text-3xl font-black text-white mb-1 tracking-tight">
                 24/7
               </h3>
-              <p className="relative z-10 text-orange-100/90 text-sm sm:text-base font-semibold">Global Access</p>
+              <p className="relative z-10 text-orange-100/90 text-xs sm:text-sm font-semibold">Global Access</p>
             </div>
           </div>
         </div>
