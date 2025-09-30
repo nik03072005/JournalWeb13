@@ -136,7 +136,7 @@ export default function Home() {
         <Navbar />
 
         {/* Hero Section - Premium Mobile Responsive */}
-        <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 sm:px-8 md:px-12 lg:px-16 pt-20 sm:pt-24 md:pt-28 pb-16 sm:pb-20 md:pb-24 min-h-screen">
+        <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 sm:px-8 md:px-12 lg:px-16 pt-8 sm:pt-12 md:pt-16 pb-16 sm:pb-20 md:pb-24 min-h-screen">
           {/* University Badge - Enhanced with Animation */}
           <div className="animate-fade-in-up rounded-full px-5 sm:px-7 py-2 sm:py-3 border border-white/20 bg-white/5 backdrop-blur-sm mb-2 sm:mb-3 shadow-2xl hover:border-white/30 transition-all duration-300" style={{animationDelay: '0.2s'}}>
             <span className="text-sm sm:text-base font-semibold text-white flex items-center gap-3">
